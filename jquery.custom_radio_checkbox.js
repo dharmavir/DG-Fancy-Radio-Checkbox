@@ -29,7 +29,7 @@ dgStyle: function()
 },
 dgClear: function()
 {
-	if($(this).data("checked") == true)
+	if($(this).data("checked") == true || $(this).data("checked") == "checked")
 	{
 		$(this).css("backgroundPosition","center -"+(elmHeight*2)+"px");
 		}
